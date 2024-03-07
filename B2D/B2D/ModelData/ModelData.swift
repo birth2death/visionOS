@@ -7,9 +7,22 @@
 
 import Foundation
 
+struct ResData: Decodable{
+    var egg: [EggImg]
+    var monster: [Dragon3D]
+}
+
 @Observable
 class ModelData{
-    var creatures: [Creature] = load("b2dData.json")
+    
+    var eggs: [EggImg]
+    var dragons: [Dragon3D]
+    
+    init(){
+        let resData: ResData = load("b2dData.json")
+        self.eggs = resData.egg
+        self.dragons = resData.monster
+    }
 }
 
 

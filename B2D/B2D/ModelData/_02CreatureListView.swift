@@ -2,9 +2,9 @@ import SwiftUI
 
 struct CreatureListView: View {
     @State var modelData = ModelData()
-    var creatures:[Creature]{ModelData().creatures}
+    var creatures:[EggImg]{ModelData().eggs}
     @State var eggIndex:Int = 0
-    var maxIndex:Int {ModelData().creatures.count-1}
+    var maxIndex:Int {ModelData().eggs.count-1}
     
     
  

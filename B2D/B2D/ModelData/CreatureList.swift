@@ -9,16 +9,15 @@ import SwiftUI
 
 struct CreatureList: View{
     @Environment(ModelData.self) var modelData
-    var creature:Creature
-    //var creatrueList: [Creature]{modelData.creatures}
-    //var id:Int=0
+    var egg:EggImg
+    
     var body: some View {
-        creature.image.resizable().frame(width:60, height: 80)
+        egg.image.resizable().frame(width:60, height: 80)
     }
 }
 
 #Preview {
-    let creatures = ModelData().creatures
+    let eggs = ModelData().eggs
     return
-        CreatureList(creature:creatures[0])
+    CreatureList(egg:eggs[0]).environment(ModelData())
 }

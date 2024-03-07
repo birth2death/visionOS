@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Creature: Hashable, Codable, Identifiable {
+struct EggImg: Hashable, Codable, Identifiable {
     var id:Int
     var name:String
     
@@ -17,3 +17,11 @@ struct Creature: Hashable, Codable, Identifiable {
         Image(imageName)
     }
 }
+
+struct Dragon3D: Hashable, Codable, Identifiable {
+    var id:Int
+    var name:String
+    
+    var usdz_list: [String]
+}
+
