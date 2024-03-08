@@ -1,0 +1,61 @@
+{
+  "advancedEditorSelectedIdentifier" : "ProjectBrowser",
+  "openSceneRelativePaths" : [
+    "Scene10.usda",
+    "Dragon1_idle.usda"
+  ],
+  "recentIdentifiers" : {
+
+  },
+  "sceneCameraHistory" : {
+    "19D26BC0-14C6-418A-8DB6-55A0EE261F46" : [
+      {
+        "date" : 731566884.124621,
+        "title" : "Untitled",
+        "transform" : [
+          1,
+          0,
+          -0,
+          0,
+          -0,
+          0.86721617,
+          -0.49793178,
+          0,
+          0,
+          0.49793178,
+          0.86721617,
+          0,
+          0,
+          0.20713022,
+          0.3607455,
+          1
+        ]
+      }
+    ],
+    "286F5B4B-8F2D-4D74-A8A3-924E9905930C" : [
+      {
+        "date" : 731566902.133892,
+        "title" : "Untitled",
+        "transform" : [
+          0.99999994,
+          0,
+          -0,
+          0,
+          -0,
+          0.8660254,
+          -0.49999988,
+          0,
+          0,
+          0.49999988,
+          0.8660254,
+          0,
+          0,
+          0.20812503,
+          0.36048314,
+          1
+        ]
+      }
+    ]
+  },
+  "selectedSceneRelativePath" : "Dragon1_idle.usda"
+}

@@ -18,10 +18,14 @@ struct EggImg: Hashable, Codable, Identifiable {
     }
 }
 
-struct Dragon3D: Hashable, Codable, Identifiable {
+struct Monster3D: Hashable, Codable, Identifiable {
     var id:Int
     var name:String
     
     var usdz_list: [String]
+
+    var first:String{
+        usdz_list[0]
+    }
 }
 

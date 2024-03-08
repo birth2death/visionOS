@@ -1,6 +1,6 @@
 
 import SwiftUI
-
+import RealityKit
 @Observable
 class ViewModel {
     
@@ -11,6 +11,7 @@ class ViewModel {
     var finalTitle: String = "Birth to Death"
 
     // MARK: - Monster
+    var entity:Entity? = nil
     var isShowingModule: Bool = false
     var isMonsterRotating: Bool = false
     var isShowingView: Bool = false
@@ -21,7 +22,7 @@ class ViewModel {
 
     // ModelData 에 있던 inputTime 을 여기로 옮겼음
     // 단위는 초단위
-    var inputTime:Double = 0
+    var inputTime:Double = 20
 
 }
 

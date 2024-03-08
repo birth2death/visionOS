@@ -17,11 +17,16 @@
     ],
     
     "monster" :
-    [
-        {
+    {
+        "shadow":{
             "id": 0,
+            "name":"shadow",
+            "usdz_list" : ["Scene2", "Scene3", "Scene6", "Scene10"]
+        },
+        "dragon":{
+            "id": 1,
             "name":"dragon",
-            "usdz_list" : ["Dragon1_Idle_s", "Dragon2_Idle_s", "Dragon2_Idle_s"]
+            "usdz_list" : ["Dragon1_idle", "Dragon2_idle", "Dragon2_idle", "Dragon2_death"]
         }
-    ]
+    }
 }

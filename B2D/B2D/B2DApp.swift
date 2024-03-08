@@ -10,7 +10,7 @@ import RealityKitContent
 
 @main
 struct B2DApp: App {
-//    @State private var modelData = ModelData()
+    //@State private var modelData = ModelData()
     
     @State private var model = ViewModel()
     
